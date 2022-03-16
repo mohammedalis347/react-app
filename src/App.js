@@ -8,7 +8,6 @@ const App = () => {
   useEffect(() => {
     dispatch(fetchUser());
   }, []);
-  // Remove later
   console.log({ usersData });
   return (
     <div>
